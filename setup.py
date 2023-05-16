@@ -20,15 +20,20 @@ def get_version(path):
 
 setuptools.setup(
     name='node-distance-ray',
-    version=get_version("node-distance-ray/__init__.py"),
-    description='lorem ipsum',
-    long_description=read('README.rst'),
+    version=get_version("node_distance_ray/__init__.py"),
+    description='ray.io wrapper for node-distance package',
+    long_description=read('README.md'),
+    long_description_content_type='text/markdown',
     url='http://github.com/satzbeleg/node-distance-ray',
     author='Ulf Hamster',
     author_email='554c46@gmail.com',
     license='Apache License 2.0',
-    packages=['node-distance-ray'],
-    install_requires=[],
+    packages=['node_distance_ray'],
+    install_requires=[
+        "node-distance>=0.1.0,<1",
+        "ray>=2,<3",
+        "psutil>=5"
+    ],
     # scripts=['scripts/examplescript.py'],
     python_requires='>=3.6',
     zip_safe=True

@@ -6,7 +6,7 @@
 
 
 ## Usage
-
+see test/test_.py
 
 
 ## Appendix
@@ -27,7 +27,6 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt --no-cache-dir
 pip install -r requirements-dev.txt --no-cache-dir
-pip install -r requirements-demo.txt --no-cache-dir
 ```
 
 (If your git repo is stored in a folder with whitespaces, then don't use the subfolder `.venv`. Use an absolute path without whitespaces.)
@@ -41,7 +40,6 @@ pip install -r requirements-demo.txt --no-cache-dir
 Publish
 
 ```sh
-pandoc README.md --from markdown --to rst -s -o README.rst
 python setup.py sdist 
 twine upload -r pypi dist/*
 ```
