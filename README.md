@@ -1,5 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/node-distance-ray.svg)](https://badge.fury.io/py/node-distance-ray)
-[![PyPi downloads](https://img.shields.io/pypi/dm/node-distance-ray)](https://img.shields.io/pypi/dm/
+[![PyPi downloads](https://img.shields.io/pypi/dm/node-distance-ray)](https://img.shields.io/pypi/dm/)
 
 # node-distance-ray
 [ray.io](https://www.ray.io/) wrapper for [node-distance](https://github.com/satzbeleg/node-distance) package.
